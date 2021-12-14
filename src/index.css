@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  :root {
+      --bgcolor:#363636;
+      --primary-color:#6f5de7;
+      --text-color:#828286;
+      --main-text-color:#333333;
+  }
+  
+  .html {
+    font-size: 62.5%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #333333;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    color: #fff;
+}
+  /* ------------------------------------ */
+    /* --------------------------------------------- */
+  
+    /* ----------------------------------------------navbar style---------- */
+
+.container-fluid{
+    background-color: var(--bgcolor);
+}
+.container-fluid img{
+    width: 12rem;
+    height: 7rem;
+    padding: 0 2rem;
+    margin-left: 25rem;
+    
+}
+.navbar-right{
+    background-color: var(--bgcolor);
+    padding: 0.3rem;
+}
+.navbar-bg{
+    padding: 1rem 0;
+    z-index: 99;
+    position: relative;
+}
+
+/* .navbar-collapse{
+    color: #fff;
+    background-color: var(--bgcolor);
+} */
+.navbar-brand{
+    font-size: 0.5rem;
+}
+      
+.navbar li {
+    padding: 0 0.5rem;
+} 
+  
+.navbar li a{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}  
+
+.navbar-toggler span{
+    background-color: #fff;
+}   
+  
+    /* .navbar li a:hover{
+      color: var(--primary-color) !important;
+      text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+    } */
+
+
+
+
+  /* -----------------------media query start here-------------------------------------------------------- */
+ 
+  /*  @media (max-width: 1400px){
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+        max-width: 1500px !important;
+    }
+  }
+
+  @media (min-width: 1400px){
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 1400px;
+    }
+  } */
+  
+    
